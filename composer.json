@@ -1,5 +1,5 @@
 {
-    "name": "harmony/tinker",
+    "name": "harmony-framework/tinker",
     "description": "Powerful REPL for the harmony framework.",
     "keywords": ["tinker", "repl", "psysh", "harmony"],
     "license": "MIT",
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "harmony\\Tinker\\": "src/"
+            "Harmony\\Tinker\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "harmony\\Tinker\\Tests\\": "tests/",
+            "Harmony\\Tinker\\Tests\\": "tests/",
             "App\\": "tests/fixtures/app",
             "One\\Two\\": "tests/fixtures/vendor/one/two"
         }
